@@ -132,6 +132,24 @@ export class AppService implements OnApplicationBootstrap {
     app.exit(0)
   }
 
+  /**
+   * 메인 윈도우를 표시하고 포커스합니다.
+   */
+  showAndFocusWindow(): void {
+    if (this.mainWindow) {
+      if (this.mainWindow.isMinimized()) {
+        this.mainWindow.restore()
+      }
+      if (!this.mainWindow.isVisible()) {
+        this.mainWindow.show()
+      }
+      this.mainWindow.focus()
+      this.logger.log('Main window focused')
+    } else {
+      this.logger.error('Main window not found')
+    }
+  }
+
   getHello(): string {
     return `Hello World! App version: ${app.getVersion()}`
   }

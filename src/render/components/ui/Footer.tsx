@@ -256,6 +256,21 @@ const Footer: React.FC = () => {
               <span> · </span>
             </>
           )
+        case 'ez2on':
+          return (
+            <>
+              <Tooltip position='top' content='https://store.steampowered.com/app/1477590'>
+                <span
+                  className='tw:cursor-pointer'
+                  onClick={() => {
+                    handleOpenExternalLink('https://store.steampowered.com/app/1477590')
+                  }}
+                >
+                  Resources from EZ2ON REBOOT : R</span>
+              </Tooltip>
+              <span> · </span>
+            </>
+          )
         default:
           return null
       }
@@ -326,9 +341,25 @@ const Footer: React.FC = () => {
             </>
           )}
 
+          {selectedGame === 'ez2on' && !isTrackMaker && (
+            <>
+              <span>Powered by </span>
+              <Tooltip position='top' content={`https://ez2pattern.kr/`}>
+                <span
+                  className='tw:text-xs tw:cursor-pointer'
+                  onClick={() => {
+                    handleOpenExternalLink('https://ez2pattern.kr/')
+                  }}
+                >
+                  EZ2PATTERN</span>
+              </Tooltip>
+              <span> · </span>
+            </>
+          )}
+
           {selectedGame && renderGameSpecificContent()}
         </>
-        <Tooltip position='top' content={t('racla.raclaLicense')}>
+        <Tooltip position='left' content={t('racla.raclaLicense')}>
           <Link className='tw:text-xs tw:cursor-pointer' to='/license'>
             {t('racla.raclaLicense')}
           </Link>
