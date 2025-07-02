@@ -46,7 +46,7 @@
     "fs-extra": "^11.3.0",
     "get-windows": "^9.2.0",
     "nest-winston": "^1.10.2",
-    "node-abi": "4.11.0",
+    "node-abi": "4.12.0",
     "node-screenshots": "^0.2.1",
     "ps-list": "^8.1.1",
     "ramda": "^0.30.1",
@@ -116,7 +116,7 @@
       "simple-git-hooks"
     ],
     "overrides": {
-      "node-abi": "4.8.0"
+      "node-abi": "4.12.0"
     }
   }
 }
