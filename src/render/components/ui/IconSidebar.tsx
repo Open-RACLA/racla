@@ -62,6 +62,21 @@ const IconSidebar: React.FC = () => {
       },
       showSetting: 'showGamePlatinaLab',
     },
+    {
+      id: 'ez2on' as GameType,
+      tooltip: 'EZ2ON REBOOT : R',
+      iconUrl: `${import.meta.env.VITE_CDN_URL}/ez2on/new_logo.png`,
+      onClick: () => {
+        if (selectedGame === 'ez2on') {
+          // 이미 선택된 경우 로고만 변경
+        } else {
+          handleGameSelect('ez2on')
+          dispatch(setSidebarCollapsed(false))
+        }
+        navigate('/home')
+      },
+      showSetting: 'showGameEz2on',
+    },
   ]
 
   // 표시할 게임 아이콘만 필터링

@@ -10,4 +10,9 @@ export class AppController {
   restartApp(): void {
     this.appService.restartApp()
   }
+
+  @IpcHandle('app:focus-window')
+  focusWindow(): void {
+    this.appService.showAndFocusWindow()
+  }
 }
