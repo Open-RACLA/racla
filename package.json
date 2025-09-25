@@ -96,7 +96,7 @@
     "tailwindcss": "4.1.11",
     "typescript": "^5.8.3",
     "vite": "^6.3.5",
-    "vite-plugin-doubleshot": "0.0.17"
+    "vite-plugin-doubleshot": "0.0.19"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
