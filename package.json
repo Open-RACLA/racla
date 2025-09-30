@@ -38,7 +38,7 @@
     "discord-rpc": "^4.0.1",
     "dmg-builder": "^26.0.17",
     "dompurify": "^3.2.6",
-    "dotenv": "^16.5.0",
+    "dotenv": "^17.0.0",
     "electron-builder-squirrel-windows": "^26.0.17",
     "electron-updater": "^6.6.2",
     "esbuild": "0.25.5",
