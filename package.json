@@ -2,7 +2,7 @@
   "name": "racla-electron-app",
   "version": "0.9.0",
   "private": true,
-  "packageManager": "pnpm@10.11.0",
+  "packageManager": "pnpm@10.18.0",
   "description": "RACLA for Desktop",
   "author": "RACLA from 공감대로0번길(GGDRN0 STUDIO)",
   "main": "dist/main/index.js",
