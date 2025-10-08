@@ -15,7 +15,7 @@
 
 ## 📋 개요
 
-Open RACLA는 **Tsuki.chat**에서 개발한 종합리듬 게임 성과 관리 도구입니다.  
+Open RACLA는 공감대로0번길(GGDRN0 STUDIO)에서 개발된 RACLA로부터 분기된 프로젝트로 **Tsuki.chat**에서 개발 및 운영하는 종합리듬 게임 성과 관리 도구입니다.  
 해당 브랜치에서는 Vite로 개발된 Open RACLA 데스크톱 앱의 소스코드와 최종 결과물인 소프트웨어를 **Windows** 플랫폼으로 배포합니다.
 
 > 📢 **안내**: 0.7 버전대까지 사용된 Nextron 기반의 데스크톱 앱의 소스코드는 [Open-RACLA/racla](https://github.com/Open-RACLA/racla/tree/main-nextron)에서 확인하실 수 있습니다.
