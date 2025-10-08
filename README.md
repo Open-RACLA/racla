@@ -1,4 +1,4 @@
-# 🎮 RACLA Desktop App (Vite)
+# 🎮 Open RACLA Desktop App (Vite)
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/80ea7d9c-63de-40f8-9969-486d062fb2a9" alt="RACLA">
@@ -6,19 +6,19 @@
   <p><strong>종합리듬 게임 성과 관리 도구</strong></p>
   
   <p>
-    <img src="https://img.shields.io/github/license/RACLA-DEV/racla-vite?color=blue" alt="License">
+    <img src="https://img.shields.io/github/license/Open-RACLA/racla?color=blue" alt="License">
     <img src="https://img.shields.io/badge/platforms-Windows-brightgreen" alt="Platforms">
-    <a href="https://github.com/RACLA-DEV/racla/actions/workflows/build.yml"><img src="https://github.com/RACLA-DEV/racla/actions/workflows/build.yml/badge.svg?branch=main" alt="Build Verification"></a>
-    <a href="https://app.codacy.com/gh/RACLA-DEV/racla/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade"><img src="https://app.codacy.com/project/badge/Grade/e6c8071c93564fcbb7624bd09e912a1a"/></a>
+    <a href="https://github.com/Open-RACLA/racla/actions/workflows/build.yml"><img src="https://github.com/Open-RACLA/racla/actions/workflows/build.yml/badge.svg?branch=main" alt="Build Verification"></a>
+    <a href="https://app.codacy.com/gh/Open-RACLA/racla/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade"><img src="https://app.codacy.com/project/badge/Grade/e6c8071c93564fcbb7624bd09e912a1a"/></a>
   </p>
 </div>
 
 ## 📋 개요
 
-RACLA는 **GGDRN0 STUDIO**에서 개발한 종합리듬 게임 성과 관리 도구입니다.  
-해당 브랜치에서는 Vite로 개발된 RACLA 데스크톱 앱의 소스코드와 최종 결과물인 소프트웨어를 **Windows** 플랫폼으로 배포합니다.
+Open RACLA는 **Tsuki.chat**에서 개발한 종합리듬 게임 성과 관리 도구입니다.  
+해당 브랜치에서는 Vite로 개발된 Open RACLA 데스크톱 앱의 소스코드와 최종 결과물인 소프트웨어를 **Windows** 플랫폼으로 배포합니다.
 
-> 📢 **안내**: 0.7 버전대까지 사용된 Nextron 기반의 데스크톱 앱의 소스코드는 [RACLA-DEV/racla](https://github.com/RACLA-DEV/racla/tree/main-nextron)에서 확인하실 수 있습니다.
+> 📢 **안내**: 0.7 버전대까지 사용된 Nextron 기반의 데스크톱 앱의 소스코드는 [Open-RACLA/racla](https://github.com/Open-RACLA/racla/tree/main-nextron)에서 확인하실 수 있습니다.
 
 ## 🛠️ 개발 환경 설정
 
@@ -30,7 +30,7 @@ RACLA는 **GGDRN0 STUDIO**에서 개발한 종합리듬 게임 성과 관리 도
 
 ### API URL 설정
 
-API URL은 소스 코드에 직접 설정되어 있으며, 개발 환경에서는 `https://dev.api.racla.app`, 운영 환경에서는 `https://api.racla.app`을 사용합니다.  
+API URL은 소스 코드에 직접 설정되어 있으며, 개발 환경에서는 `https://dev.api.open-racla.app`, 운영 환경에서는 `https://api.open-racla.app`을 사용합니다.  
 개발 환경의 API URL은 접근 제어되어 있으므로 해당 URL을 접근하기 위해서는 별도로 사용 권한을 요청하셔야 합니다.  
 API URL 설정에 관한 자세한 내용은 `src/libs/apiClient.ts` 파일을 참고해주세요.
 
@@ -105,18 +105,18 @@ racla/
       웹 성과 관리 도구 <a href="https://v-archive.net">V-ARCHIVE</a>, <a href="https://hard-archive.com">전일 아카이브</a>와 연동됩니다.
     </td>
   </tr>
-  <tr>
+  <!-- <tr>
     <td><b>🎧 PLATiNA::LAB</b></td>
     <td>
       <a href="https://platinalab.net/">플라티나 랩</a><br>
       RACLA 자체 구축 서비스로 운영됩니다.
     </td>
-  </tr>
+  </tr> -->
 </table>
 
 ## 🌐 다국어 지원 (i18n)
 
-RACLA는 다국어 지원을 위한 국제화(i18n) 시스템을 구축하고 있습니다. 현재 번역 기여를 받고 있으며, 다음 언어들을 지원합니다.
+Open RACLA는 다국어 지원을 위한 국제화(i18n) 시스템을 구축하고 있습니다. 현재 번역 기여를 받고 있으며, 다음 언어들을 지원합니다.
 
 - 한국어 (기본)
 - 영어 (Claude Sonnet 3.7로 번역됨)
@@ -136,7 +136,7 @@ RACLA는 다국어 지원을 위한 국제화(i18n) 시스템을 구축하고 �
 
 ### 소프트웨어 라이선스
 
-- 이 소프트웨어의 소스코드는 [MIT 라이선스](https://github.com/RACLA-DEV/racla/blob/main/LICENSE)에 따라 제공됩니다.
+- 이 소프트웨어의 소스코드는 [MIT 라이선스](https://github.com/Open-RACLA/racla/blob/main/LICENSE)에 따라 제공됩니다.
 - 자세한 내용은 소스코드에 포함된 `LICENSE` 파일을 참조하시기 바랍니다.
 
 ### 제3자 리소스
