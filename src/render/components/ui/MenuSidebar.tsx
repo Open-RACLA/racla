@@ -104,32 +104,32 @@ const MenuSidebar: React.FC = () => {
         }
         break
 
-      case 'platina_lab':
-        if (globalDictionary.navDictionary.platina_lab) {
-          // PLATINA :: LAB 네비게이션
-          Object.values(globalDictionary.navDictionary.platina_lab).forEach((category) => {
-            if (category.isDisplay) {
-              const menuItems = category.pages
-                .filter((page) => page.isDisplay)
-                .map((page) => ({
-                  id: page.id,
-                  icon: page.icon, // 이미 lucide 아이콘 ID가 들어 있음
-                  path: page.link,
-                  isExternal: page.isOpenBrowser,
-                }))
+      // case 'platina_lab':
+      //   if (globalDictionary.navDictionary.platina_lab) {
+      //     // PLATINA :: LAB 네비게이션
+      //     Object.values(globalDictionary.navDictionary.platina_lab).forEach((category) => {
+      //       if (category.isDisplay) {
+      //         const menuItems = category.pages
+      //           .filter((page) => page.isDisplay)
+      //           .map((page) => ({
+      //             id: page.id,
+      //             icon: page.icon, // 이미 lucide 아이콘 ID가 들어 있음
+      //             path: page.link,
+      //             isExternal: page.isOpenBrowser,
+      //           }))
 
-              if (menuItems.length > 0) {
-                navItems.push({
-                  id: category.id,
-                  icon: 'lucide:folder',
-                  path: category.link || '/',
-                  subItems: menuItems,
-                })
-              }
-            }
-          })
-        }
-        break
+      //         if (menuItems.length > 0) {
+      //           navItems.push({
+      //             id: category.id,
+      //             icon: 'lucide:folder',
+      //             path: category.link || '/',
+      //             subItems: menuItems,
+      //           })
+      //         }
+      //       }
+      //     })
+      //   }
+      //   break
 
       default:
         null
@@ -229,7 +229,7 @@ const MenuSidebar: React.FC = () => {
             <span
               className={`tw:flex tw:w-full tw:text-left tw:py-2 tw:px-4 tw:transition-colors tw:cursor-pointer tw:dark:hover:bg-slate-700 tw:hover:bg-indigo-50`}
               onClick={() => {
-                handleOpenExternalLink('https://racla.app/')
+                handleOpenExternalLink('https://open-racla.app/')
               }}
             >
               <Icon icon='lucide:home' className='tw:w-4 tw:h-4 tw:mr-2' />
@@ -509,7 +509,7 @@ const MenuSidebar: React.FC = () => {
               <span
                 className={`tw:flex tw:w-full tw:text-left tw:py-2 tw:px-4 tw:transition-colors tw:cursor-pointer tw:dark:hover:bg-slate-700 tw:hover:bg-indigo-50`}
                 onClick={() => {
-                  handleOpenExternalLink('https://racla.app/')
+                  handleOpenExternalLink('https://open-racla.app/')
                 }}
               >
                 <Icon icon='lucide:home' className='tw:w-4 tw:h-4 tw:mr-2' />

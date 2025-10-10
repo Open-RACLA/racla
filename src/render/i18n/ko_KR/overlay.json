@@ -1,5 +1,5 @@
 {
-  "successInitialize": "RACLA 오버레이가 활성화 되었습니다.",
+  "successInitialize": "Open-RACLA 오버레이가 활성화 되었습니다.",
   "pressedAltInsert": "수동 캡처 모드 - 결과 창 화면 분석을 시작합니다. 잠시만 기다려주세요.",
   "detectResultScreen": "자동 캡처 모드 - 결과 창 화면이 감지되어 분석을 시작합니다. 잠시만 기다려주세요.",
   "retryParsePlayResult": "자동 캡처 모드 - 첫 번째 시도에서 결과 창 화면 분석에 실패하여 다시 시도합니다. 잠시만 기다려주세요. (최대 3회 시도)",
@@ -16,7 +16,7 @@
   "resultOverlay": "결과 오버레이 표시",
   "resultOverlayDescription": "자동 캡처 또는 수동 캡처 모드에서 캡쳐한 결과와 처리 과정을 인게임 오버레이로 표시합니다. DJMAX RESPECT V는 V-ARCHIVE와 연동이 필요하며, 버서스/래더 매치 화면은 지원하지 않습니다.",
   "recentOverlay": "결과 오버레이 표시 시 최근 기록 오버레이 표시",
-  "recentOverlayDescription": "결과 오버레이 표시 시 해당 수록곡 패턴의 RACLA 최근 기록 정보를 표시합니다.",
+  "recentOverlayDescription": "결과 오버레이 표시 시 해당 수록곡 패턴의 Open-RACLA 최근 기록 정보를 표시합니다.",
   "hardJudgementPlayRecordOverlay": "결과 오버레이 표시 시 전일 기록 오버레이 표시",
-  "hardJudgementPlayRecordOverlayDescription": "DJMAX RESPECT V의 결과 오버레이 표시 시 전일 아카이브에 등록된 최고 기록 정보를 표시합니다. PLATiNA :: LAB은 RACLA 기록을 바탕으로 추후 지원 예정입니다."
+  "hardJudgementPlayRecordOverlayDescription": "DJMAX RESPECT V의 결과 오버레이 표시 시 전일 아카이브에 등록된 최고 기록 정보를 표시합니다. PLATiNA :: LAB은 Open-RACLA 기록을 바탕으로 추후 지원 예정입니다."
 }

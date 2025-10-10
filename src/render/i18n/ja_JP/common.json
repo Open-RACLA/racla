@@ -1,5 +1,5 @@
 {
-  "copyright": "Developed by RACLA from 공감대로0번길(GGDRN0 STUDIO)",
+  "copyright": "Developed by Tsuki.chat",
   "general": {
     "time_hour": "時",
     "time_minute": "分",
@@ -38,7 +38,7 @@
     "logout": "ログアウト",
     "register": "アカウント作成",
     "backToLogin": "ログイン画面に戻る",
-    "loginSuccess": "{{userName}}さん、RACLAへようこそ。",
+    "loginSuccess": "{{userName}}さん、Open-RACLAへようこそ。",
     "loginFailed": "ログインに失敗しました。もう一度お試しください。",
     "logoutSuccess": "正常にログアウトしました。",
     "logoutFailed": "ログアウトに失敗しました。もう一度お試しください。",
@@ -48,9 +48,9 @@
     "unknownError": "不明なエラーが発生しました。もう一度お試しください。",
     "discordLoginCanceled": "Discordログインがキャンセルされました。",
     "discordLoginFailed": "Discordログインに失敗しました。もう一度お試しください。",
-    "announcement_1": "RACLAはV-ARCHIVEとDiscordのユーザーデータを収集・使用しています。",
+    "announcement_1": "Open-RACLAはV-ARCHIVEとDiscordのユーザーデータを収集・使用しています。",
     "announcement_2": "V-ARCHIVEアカウント未連携の場合、DJMAX RESPECT Vサービスの一部機能は使用できません。",
-    "announcement_3": "V-ARCHIVEまたはDiscordで初回ログイン時、自動的にRACLAアカウントが作成され、該当するサービスのアカウント情報と連携されます。",
+    "announcement_3": "V-ARCHIVEまたはDiscordで初回ログイン時、自動的にOpen-RACLAアカウントが作成され、該当するサービスのアカウント情報と連携されます。",
     "announcement_4": "連携に関する設定はログイン後、設定ページで確認できます。",
     "announcement_5": "V-ARCHIVE公式クライアントダウンロードはこちら"
   },

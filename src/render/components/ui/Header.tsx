@@ -157,7 +157,8 @@ const TitleBar: React.FC = () => {
             : selectedGame &&
               globalDictionary.gameDictionary?.[
                 selectedGame as keyof typeof globalDictionary.gameDictionary
-              ]?.name}
+              ]?.name}{' '}
+          (Open-RACLA)
         </div>
 
         {/* 오른쪽 컨트롤 버튼 영역 */}

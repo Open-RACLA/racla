@@ -261,7 +261,7 @@ const DmrvDbDetailPage = () => {
                 <div className='tw:flex tw:flex-col tw:w-full tw:flex-1 tw:justify-end tw:leading-none tw:p-1'>
                   {/* 제목 */}
                   <span className='tw:text-xs tw:font-light tw:text-slate-500 tw:dark:text-slate-400'>
-                    V-ARCHIVE : {baseSongData[0].title} / RACLA : {baseSongData[0].title}
+                    V-ARCHIVE : {baseSongData[0].title} / Open-RACLA : {baseSongData[0].title}
                   </span>
                   <span className='tw:flex tw:text-sm tw:font-light tw:text-slate-600 tw:dark:text-slate-300'>
                     {baseSongData[0].composer}

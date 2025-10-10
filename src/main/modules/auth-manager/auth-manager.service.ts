@@ -112,7 +112,7 @@ export class AuthManagerService {
 
           if (code && returnedState === state) {
             res.writeHead(302, {
-              Location: 'https://racla.app/login/oauth/success',
+              Location: 'https://tsuki.chat/login/oauth/success',
             })
             res.end()
 

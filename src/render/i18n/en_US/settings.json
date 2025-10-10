@@ -4,9 +4,9 @@
   "general": "General",
   "storage": "Storage",
   "games": "Games",
-  "storageSettingFile": "RACLA Setting Files",
-  "storageCaptureImage": "RACLA Captured Images",
-  "storageLogs": "RACLA Log Files",
+  "storageSettingFile": "Open-RACLA Setting Files",
+  "storageCaptureImage": "Open-RACLA Captured Images",
+  "storageLogs": "Open-RACLA Log Files",
   "storageLogsDeleting": "Deleting...",
   "storageLogsDeleteAll": "Delete Log Files",
   "autoStart": "Auto Launch Game",
@@ -14,10 +14,10 @@
   "restartApp": "Restart App",
   "requiresRestart": "※ This setting requires restarting the app to apply.",
   "uneditable": "※ This setting cannot be modified in the current version.",
-  "copyright": "DJMAX RESPECT V(©NEOWIZ), PLATiNA :: LAB(©HIGH-END Games).\nWe deeply respect you. <3\nRACLA is dedicated to your remarkable games and services.",
+  "copyright": "DJMAX RESPECT V(©NEOWIZ), PLATiNA :: LAB(©HIGH-END Games).\nWe deeply respect you. <3\nOpen-RACLA is dedicated to your remarkable games and services.",
   "hardwareAcceleration": {
     "name": "Enable Hardware Acceleration",
-    "description": "Hardware acceleration uses the GPU to make the RACLA desktop app run more smoothly. If you experience issues with the app display, try disabling this setting. Changing this setting will restart the app."
+    "description": "Hardware acceleration uses the GPU to make the Open-RACLA desktop app run more smoothly. If you experience issues with the app display, try disabling this setting. Changing this setting will restart the app."
   },
   "autoCaptureMode": {
     "name": "Auto Capture Mode",
@@ -46,7 +46,7 @@
   "font": {
     "name": "Font",
     "description": "Set the program font. Some items may change font depending on the language setting.",
-    "default": "RACLA Style",
+    "default": "Open-RACLA Style",
     "platina_lab": "PLATiNA :: LAB Style"
   },
   "autoCaptureApi": {
@@ -140,15 +140,15 @@
   },
   "autoStartGame": {
     "name": "Auto Launch Game",
-    "description": "Automatically launch the selected game when starting the RACLA desktop app."
+    "description": "Automatically launch the selected game when starting the Open-RACLA desktop app."
   },
   "autoStartGameDjmaxRespectV": {
     "name": "Auto Launch DJMAX RESPECT V",
-    "description": "Automatically launch DJMAX RESPECT V when starting the RACLA desktop app. This feature only works with the Steam version of DJMAX RESPECT V."
+    "description": "Automatically launch DJMAX RESPECT V when starting the Open-RACLA desktop app. This feature only works with the Steam version of DJMAX RESPECT V."
   },
   "autoStartGamePlatinaLab": {
     "name": "Auto Launch PLATiNA :: LAB",
-    "description": "Automatically launch PLATiNA :: LAB when starting the RACLA desktop app. This feature only works with the Steam version of DJMAX RESPECT V."
+    "description": "Automatically launch PLATiNA :: LAB when starting the Open-RACLA desktop app. This feature only works with the Steam version of DJMAX RESPECT V."
   },
   "isMiniMode": {
     "name": "Mini Mode",
@@ -203,7 +203,7 @@
     "description": "View account information.",
     "playerId": "Account ID",
     "playerToken": "Account Token",
-    "playerWarning": "The information shown here includes the account ID (playerNo) and account token (playerToken) used for login data in RACLA. Please be careful not to expose your account ID and account token to others.",
+    "playerWarning": "The information shown here includes the account ID (playerNo) and account token (playerToken) used for login data in Open-RACLA. Please be careful not to expose your account ID and account token to others.",
     "vArchiveUserNo": "V-ARCHIVE Account ID",
     "vArchiveToken": "V-ARCHIVE Account Token",
     "vArchiveWarning": "The information shown here includes the account ID (userNo) and account token used for login data in V-ARCHIVE. Please be careful not to expose your account ID and account token to others.",

@@ -40,7 +40,7 @@ API URL 설정에 관한 자세한 내용은 `src/libs/apiClient.ts` 파일을 �
 
 ```bash
 # CDN URL 설정
-VITE_CDN_URL=https://cdn.racla.app
+VITE_CDN_URL=https://cdn.open-racla.app
 # 디스코드 통합을 위한 설정
 DISCORD_CLIENT_ID=YOUR_DISCORD_CLIENT_ID
 ```

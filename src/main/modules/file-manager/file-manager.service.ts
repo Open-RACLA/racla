@@ -43,8 +43,8 @@ export class FileManagerService {
   private imageCleanupInterval: NodeJS.Timeout | undefined = undefined
 
   constructor() {
-    this.documentsPath = path.join(app.getPath('documents'), 'RACLA')
-    this.picturesPath = path.join(app.getPath('pictures'), 'RACLA')
+    this.documentsPath = path.join(app.getPath('documents'), 'Open-RACLA')
+    this.picturesPath = path.join(app.getPath('pictures'), 'Open-RACLA')
     this.logsPath = path.join(
       !app.isPackaged ? app.getAppPath() : app.getPath('exe').split('\\').slice(0, -1).join('\\'),
       'logs',

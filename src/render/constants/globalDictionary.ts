@@ -4,7 +4,10 @@ import { BUILD_DATE } from './buildInfo'
 
 export const globalDictionary = {
   version: `${packageJson.version} ${BUILD_DATE}`,
-  supportGameList: ['djmax_respect_v', 'platina_lab'],
+  supportGameList: [
+    'djmax_respect_v',
+    // 'platina_lab'
+  ],
   blurDataURL:
     'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQEAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADb/2wBDABQODxIPDRQSEBIXFRQdHx0fHRsdHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR3/2wBDAR0XFyAeIRshGxsdIR0hHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR3/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAb/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCdABmX/9k=',
   settingDictionary: {
@@ -539,40 +542,40 @@ export const globalDictionary = {
         'VL3',
       ],
     },
-    platina_lab: {
-      id: 'platina_lab',
-      name: 'PLATiNA :: LAB',
-      jacketsUrl: '/platina_lab/jackets/resized',
-      keyModeList: [4, 6],
-      levelList: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
-      difficulty: {
-        EASY: {
-          name: 'platina_lab.difficulty.EASY.name',
-          fullName: 'platina_lab.difficulty.EASY.fullName',
-        },
-        HD: {
-          name: 'platina_lab.difficulty.HD.name',
-          fullName: 'platina_lab.difficulty.HD.fullName',
-        },
-        OVER: {
-          name: 'platina_lab.difficulty.OVER.name',
-          fullName: 'platina_lab.difficulty.OVER.fullName',
-        },
-        PLUS_1: {
-          name: 'platina_lab.difficulty.PLUS_1.name',
-          fullName: 'platina_lab.difficulty.PLUS_1.fullName',
-        },
-        PLUS_2: {
-          name: 'platina_lab.difficulty.PLUS_2.name',
-          fullName: 'platina_lab.difficulty.PLUS_2.fullName',
-        },
-        PLUS_3: {
-          name: 'platina_lab.difficulty.PLUS_3.name',
-          fullName: 'platina_lab.difficulty.PLUS_3.fullName',
-        },
-      },
-      dlcList: [],
-    },
+    // platina_lab: {
+    //   id: 'platina_lab',
+    //   name: 'PLATiNA :: LAB',
+    //   jacketsUrl: '/platina_lab/jackets/resized',
+    //   keyModeList: [4, 6],
+    //   levelList: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
+    //   difficulty: {
+    //     EASY: {
+    //       name: 'platina_lab.difficulty.EASY.name',
+    //       fullName: 'platina_lab.difficulty.EASY.fullName',
+    //     },
+    //     HD: {
+    //       name: 'platina_lab.difficulty.HD.name',
+    //       fullName: 'platina_lab.difficulty.HD.fullName',
+    //     },
+    //     OVER: {
+    //       name: 'platina_lab.difficulty.OVER.name',
+    //       fullName: 'platina_lab.difficulty.OVER.fullName',
+    //     },
+    //     PLUS_1: {
+    //       name: 'platina_lab.difficulty.PLUS_1.name',
+    //       fullName: 'platina_lab.difficulty.PLUS_1.fullName',
+    //     },
+    //     PLUS_2: {
+    //       name: 'platina_lab.difficulty.PLUS_2.name',
+    //       fullName: 'platina_lab.difficulty.PLUS_2.fullName',
+    //     },
+    //     PLUS_3: {
+    //       name: 'platina_lab.difficulty.PLUS_3.name',
+    //       fullName: 'platina_lab.difficulty.PLUS_3.fullName',
+    //     },
+    //   },
+    //   dlcList: [],
+    // },
   },
   navDictionary: {
     djmax_respect_v: {
@@ -715,84 +718,84 @@ export const globalDictionary = {
         ],
       },
     },
-    platina_lab: {
-      platina_lab: {
-        id: 'platinaLabNavTitle',
-        isDisplay: true,
-        link: '/games/platina_lab',
-        pages: [
-          {
-            id: 'platinaLabRegScore',
-            icon: 'lucide:upload',
-            isDisplay: true,
-            isOpenBrowser: false,
-            link: '/regScore',
-            status: 'stable',
-            platform: ['win32'],
-          },
-          {
-            id: 'platinaLabMyBoard',
-            icon: 'lucide:trophy',
-            isDisplay: true,
-            isOpenBrowser: false,
-            link: '/board',
-            status: 'stable',
-            platform: ['win32'],
-          },
-          {
-            id: 'platinaLabDb',
-            icon: 'lucide:database',
-            isDisplay: true,
-            isOpenBrowser: false,
-            link: '/db',
-            status: 'stable',
-            platform: ['win32'],
-          },
-          {
-            id: 'platinaLabLeaderboard',
-            icon: 'lucide:ranking',
-            isDisplay: false,
-            isOpenBrowser: false,
-            link: '/leaderboard',
-            status: 'dev',
-            platform: ['win32'],
-          },
-          {
-            id: 'platinaLabCourseMaker',
-            icon: 'lucide:wand',
-            isDisplay: false,
-            isOpenBrowser: false,
-            link: '/course',
-            status: 'dev',
-            platform: ['win32'],
-          },
-        ],
-      },
-      official: {
-        id: 'officialNavTitle',
-        isDisplay: true,
-        link: '',
-        pages: [
-          {
-            id: 'officialMusic',
-            icon: 'lucide:music',
-            isDisplay: true,
-            isOpenBrowser: true,
-            link: 'https://platinalab.net/music',
-            status: 'stable',
-            platform: ['win32'],
-          },
-          {
-            id: 'officialRanking',
-            icon: 'lucide:trophy',
-            isDisplay: true,
-            isOpenBrowser: true,
-            link: 'https://platinalab.net/ranking',
-            status: 'stable',
-            platform: ['win32'],
-          },
-        ],
-      },
-    },
+    // platina_lab: {
+    //   platina_lab: {
+    //     id: 'platinaLabNavTitle',
+    //     isDisplay: true,
+    //     link: '/games/platina_lab',
+    //     pages: [
+    //       {
+    //         id: 'platinaLabRegScore',
+    //         icon: 'lucide:upload',
+    //         isDisplay: true,
+    //         isOpenBrowser: false,
+    //         link: '/regScore',
+    //         status: 'stable',
+    //         platform: ['win32'],
+    //       },
+    //       {
+    //         id: 'platinaLabMyBoard',
+    //         icon: 'lucide:trophy',
+    //         isDisplay: true,
+    //         isOpenBrowser: false,
+    //         link: '/board',
+    //         status: 'stable',
+    //         platform: ['win32'],
+    //       },
+    //       {
+    //         id: 'platinaLabDb',
+    //         icon: 'lucide:database',
+    //         isDisplay: true,
+    //         isOpenBrowser: false,
+    //         link: '/db',
+    //         status: 'stable',
+    //         platform: ['win32'],
+    //       },
+    //       {
+    //         id: 'platinaLabLeaderboard',
+    //         icon: 'lucide:ranking',
+    //         isDisplay: false,
+    //         isOpenBrowser: false,
+    //         link: '/leaderboard',
+    //         status: 'dev',
+    //         platform: ['win32'],
+    //       },
+    //       {
+    //         id: 'platinaLabCourseMaker',
+    //         icon: 'lucide:wand',
+    //         isDisplay: false,
+    //         isOpenBrowser: false,
+    //         link: '/course',
+    //         status: 'dev',
+    //         platform: ['win32'],
+    //       },
+    //     ],
+    //   },
+    //   official: {
+    //     id: 'officialNavTitle',
+    //     isDisplay: true,
+    //     link: '',
+    //     pages: [
+    //       {
+    //         id: 'officialMusic',
+    //         icon: 'lucide:music',
+    //         isDisplay: true,
+    //         isOpenBrowser: true,
+    //         link: 'https://platinalab.net/music',
+    //         status: 'stable',
+    //         platform: ['win32'],
+    //       },
+    //       {
+    //         id: 'officialRanking',
+    //         icon: 'lucide:trophy',
+    //         isDisplay: true,
+    //         isOpenBrowser: true,
+    //         link: 'https://platinalab.net/ranking',
+    //         status: 'stable',
+    //         platform: ['win32'],
+    //       },
+    //     ],
+    //   },
+    // },
   },
 }

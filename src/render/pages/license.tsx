@@ -21,26 +21,26 @@ export default function LicensePage() {
             {/* 주요 라이선스 내용 */}
             <div className='tw:bg-slate-50 tw:dark:bg-slate-700/30 tw:p-6 tw:rounded-lg tw:space-y-4 tw:text-slate-700 tw:dark:text-slate-300'>
               <p className='tw:leading-relaxed'>
-                1. RACLA는 아래의 명시된 출처(게임)의 성과 관리 도구 애플리케이션(이하 팬
-                애플리케이션)입니다. RACLA에서 제공되는 리소스는 각 저작권자의 2차 창작 가이드라인을
-                준수하여 사용되고 있으며, 일부 리소스는 사전 허가를 받아 사용하고 있습니다. 만약
-                별도의 라이선스를 부여받지 않은 리소스가 포함되는 경우, 해당 리소스는 비상업적인
-                용도로만 활용합니다. 애플리케이션 내 사용된 모든 컨텐츠(이미지, 문구 등)의 저작권은
-                명시된 저작권자에게 있습니다.
+                1. Open-RACLA는 아래의 명시된 출처(게임)의 성과 관리 도구 애플리케이션(이하 팬
+                애플리케이션)입니다. Open-RACLA에서 제공되는 리소스는 각 저작권자의 2차 창작
+                가이드라인을 준수하여 사용되고 있으며, 일부 리소스는 사전 허가를 받아 사용하고
+                있습니다. 만약 별도의 라이선스를 부여받지 않은 리소스가 포함되는 경우, 해당 리소스는
+                비상업적인 용도로만 활용합니다. 애플리케이션 내 사용된 모든 컨텐츠(이미지, 문구
+                등)의 저작권은 명시된 저작권자에게 있습니다.
               </p>
               <p className='tw:leading-relaxed'>
                 2. 명시된 콘텐츠 내부에 포함된 저작권 또한 각각의 콘텐츠의 저작권자에게 있습니다.
               </p>
               <p className='tw:leading-relaxed'>
-                3. 해당 애플리케이션은 비상업적인 용도로 제공되며, RACLA를 통한 제3자의 직접적인
-                상업적 행위(재배포, 판매 등)를 금지합니다. 다만, 게임 스트리밍 방송, 게임 플레이
-                영상 제작, 게임 관련 콘텐츠 제작 등 일반적인 창작 활동에서 화면에 포함되는 경우는
-                예외로 합니다.
+                3. 해당 애플리케이션은 비상업적인 용도로 제공되며, Open-RACLA를 통한 제3자의
+                직접적인 상업적 행위(재배포, 판매 등)를 금지합니다. 다만, 게임 스트리밍 방송, 게임
+                플레이 영상 제작, 게임 관련 콘텐츠 제작 등 일반적인 창작 활동에서 화면에 포함되는
+                경우는 예외로 합니다.
               </p>
               <p className='tw:leading-relaxed'>
-                4. 본 서비스의 유지를 위한 모든 비용은 공감대로0번길(GGDRN0 STUDIO)가 부담합니다.
-                다만, 서비스 운영 및 유지 비용을 충당하기 위해 필요한 최소한의 광고가 저작권자와의
-                협의하에 게재될 수 있습니다.
+                4. 본 서비스의 유지를 위한 모든 비용은 Tsuki.chat가 부담합니다. 다만, 서비스 운영 및
+                유지 비용을 충당하기 위해 필요한 최소한의 광고가 저작권자와의 협의하에 게재될 수
+                있습니다.
               </p>
             </div>
 
@@ -196,7 +196,7 @@ export default function LicensePage() {
                     4.
                   </span>
                   <p className='tw:leading-relaxed'>
-                    RACLA 서비스를 함께 만들어가는 공감대로0번길(GGDRN0 STUDIO)와 RACLA 팀원들
+                    Open-RACLA 서비스를 함께 만들어가는 Tsuki.chat와 Open-RACLA 팀원들
                   </p>
                 </div>
                 <div className='tw:flex tw:gap-2'>
@@ -204,7 +204,7 @@ export default function LicensePage() {
                     5.
                   </span>
                   <p className='tw:leading-relaxed'>
-                    RACLA 서비스에서 가장 많은 기여도를 주신 HanA 사용자님
+                    Open-RACLA 서비스에서 가장 많은 기여도를 주신 HanA 사용자님
                   </p>
                 </div>
                 <div className='tw:flex tw:gap-2'>
@@ -212,7 +212,7 @@ export default function LicensePage() {
                     6.
                   </span>
                   <p className='tw:leading-relaxed'>
-                    RACLA 서비스 유지와 개선을 위해 정기적으로 후원해주시는 KIHARU 후원자님
+                    Open-RACLA 서비스 유지와 개선을 위해 정기적으로 후원해주시는 KIHARU 후원자님
                   </p>
                 </div>
                 <div className='tw:flex tw:gap-2'>
@@ -220,7 +220,7 @@ export default function LicensePage() {
                     7.
                   </span>
                   <p className='tw:leading-relaxed'>
-                    마지막으로 RACLA를 사용해주시는 모든 사용자 여러분들께 감사합니다.
+                    마지막으로 Open-RACLA를 사용해주시는 모든 사용자 여러분들께 감사합니다.
                   </p>
                 </div>
               </div>
@@ -246,7 +246,7 @@ export default function LicensePage() {
                     제1조 (목적)
                   </h3>
                   <p className='tw:leading-relaxed'>
-                    본 약관은 공감대로0번길(이하 "GGDRN0 STUDIO" 또는 "개발팀")이 제공하는 RACLA
+                    본 약관은 Tsuki.chat(이하 "Tsuki.chat" 또는 "개발팀")이 제공하는 Open-RACLA
                     서비스(이하 "서비스")의 이용과 관련하여 개발팀과 이용자 간의 권리, 의무,
                     책임사항 및 기타 필요한 사항을 규정함을 목적으로 합니다.
                   </p>
@@ -258,8 +258,8 @@ export default function LicensePage() {
                   </h3>
                   <div className='tw:space-y-2'>
                     <p className='tw:leading-relaxed'>
-                      "서비스"란 공감대로0번길(GGDRN0 STUDIO)에 소속된 RACLA 팀이 개발하여 제공하는
-                      디지털 콘텐츠 및 관련 서비스를 말합니다.
+                      "서비스"란 Tsuki.chat에 소속된 Open-RACLA 팀이 개발하여 제공하는 디지털 콘텐츠
+                      및 관련 서비스를 말합니다.
                     </p>
                     <p className='tw:leading-relaxed'>
                       "이용자"란 본 약관에 동의하고 서비스를 이용하는 자를 의미합니다.
@@ -319,16 +319,16 @@ export default function LicensePage() {
                       </li>
                       <li>
                         비밀번호(기본적인 서비스 이용에서는 미수집, 단 OwO Developer Hub 서비스를
-                        이용하여 RACLA API 외부 활용 시 별도 동의하에 복호화 불가능한 방법으로
+                        이용하여 Open-RACLA API 외부 활용 시 별도 동의하에 복호화 불가능한 방법으로
                         암호화된 데이터로 수집)
                       </li>
                       <li>
                         이메일(기본적인 서비스 이용에서는 미수집, 단 OwO Developer Hub 서비스를
-                        이용하여 RACLA API 외부 활용 시 별도 동의하에 수집)
+                        이용하여 Open-RACLA API 외부 활용 시 별도 동의하에 수집)
                       </li>
                       <li>
                         주소(기본적인 서비스 이용에서는 미수집, 단 OwO Developer Hub 서비스를
-                        이용하여 RACLA API 외부 활용 시 별도 동의하에 수집)
+                        이용하여 Open-RACLA API 외부 활용 시 별도 동의하에 수집)
                       </li>
                       <li>닉네임</li>
                       <li>
@@ -354,10 +354,10 @@ export default function LicensePage() {
                         onClick={(e) => {
                           e.stopPropagation()
                           dispatch(setIsOpenExternalLink(true))
-                          dispatch(setOpenExternalLink('https://gongroin.com/policy/privacy'))
+                          dispatch(setOpenExternalLink('https://tsuki.chat/policy/privacy'))
                         }}
                       >
-                        공감대로0번길(GGDRN0 STUDIO)의 개인정보 처리방침
+                        Tsuki.chat의 개인정보 처리방침
                       </span>
                       을 따릅니다.
                     </p>

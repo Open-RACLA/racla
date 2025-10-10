@@ -3,8 +3,8 @@ export const GLOBAL_DICTONARY = {
   SUPPORTED_GAME_PROCESS_NAME_LIST: [
     // 왜 하나가 더 많지?
     'DJMAX RESPECT V.exe', // GOAT
-    'PLATiNA LAB.exe', // 플라티나 랩은 프로세스는 PLATiNA LAB으로 나오고...
-    'PLATiNA :: LAB.exe', // 또 앱(프로그램) 명으로는 PLATiNA :: LAB으로 나오기 때문에...
+    // 'PLATiNA LAB.exe', // 플라티나 랩은 프로세스는 PLATiNA LAB으로 나오고...
+    // 'PLATiNA :: LAB.exe', // 또 앱(프로그램) 명으로는 PLATiNA :: LAB으로 나오기 때문에...
   ],
 
   NOT_SUPPORTED_GAME_PROCESS_NAME_LIST: [
@@ -74,20 +74,20 @@ export const GLOBAL_DICTONARY = {
         chat: { left: 58, top: 687, width: 524, height: 256 },
       },
     },
-    platina_lab: {
-      result: {
-        myProfile: { left: 1452, top: 14, width: 422, height: 88 },
-        otherProfile: { left: 1, top: 1, width: 1, height: 1 },
-        chat: { left: 1, top: 1, width: 1, height: 1 },
-      },
-    },
-    ez2on: {
-      result: {
-        myProfile: { left: 1, top: 1, width: 1, height: 1 },
-        otherProfile: { left: 1, top: 1, width: 1, height: 1 },
-        chat: { left: 1, top: 1, width: 1, height: 1 },
-      },
-    },
+    // platina_lab: {
+    //   result: {
+    //     myProfile: { left: 1452, top: 14, width: 422, height: 88 },
+    //     otherProfile: { left: 1, top: 1, width: 1, height: 1 },
+    //     chat: { left: 1, top: 1, width: 1, height: 1 },
+    //   },
+    // },
+    // ez2on: {
+    //   result: {
+    //     myProfile: { left: 1, top: 1, width: 1, height: 1 },
+    //     otherProfile: { left: 1, top: 1, width: 1, height: 1 },
+    //     chat: { left: 1, top: 1, width: 1, height: 1 },
+    //   },
+    // },
   },
 
   // OCR 인식 영역 정의 (화면 타입 구분을 위한 영역)
@@ -98,12 +98,12 @@ export const GLOBAL_DICTONARY = {
       open3: { width: 78, height: 24, left: 236, top: 724 },
       open2: { width: 80, height: 26, left: 335, top: 723 },
     },
-    platina_lab: {
-      result: { width: 100, height: 26, left: 694, top: 864 },
-    },
-    ez2on: {
-      result: { width: 1, height: 1, left: 1, top: 1 },
-    },
+    // platina_lab: {
+    //   result: { width: 100, height: 26, left: 694, top: 864 },
+    // },
+    // ez2on: {
+    //   result: { width: 1, height: 1, left: 1, top: 1 },
+    // },
   },
 
   // 결과 화면 키워드 (각 영역별로 다른 키워드 지정)
@@ -114,11 +114,11 @@ export const GLOBAL_DICTONARY = {
       open3: ['SCORE', 'ORE'],
       open2: ['SCORE', 'ORE'],
     },
-    platina_lab: {
-      result: ['COMBO', 'COM', 'MBO'],
-    },
-    ez2on: {
-      result: ['NOT_AVAILABLE'],
-    },
+    // platina_lab: {
+    //   result: ['COMBO', 'COM', 'MBO'],
+    // },
+    // ez2on: {
+    //   result: ['NOT_AVAILABLE'],
+    // },
   },
 }

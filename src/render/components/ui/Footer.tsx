@@ -85,7 +85,7 @@ const Footer: React.FC = () => {
 
   // 서버 상태 툴팁 내용 생성
   const getStatusTooltipContent = () => {
-    let content = `RACLA: ${isMainServerOnline ? 'Online (' + serverVersion + ')' : 'Offline'}\n`
+    let content = `Open-RACLA: ${isMainServerOnline ? 'Online (' + serverVersion + ')' : 'Offline'}\n`
 
     // 게임이 DJMAX인 경우에만 프록시 서버 상태 표시
     if (selectedGame === 'djmax_respect_v') {
@@ -266,7 +266,8 @@ const Footer: React.FC = () => {
                     handleOpenExternalLink('https://store.steampowered.com/app/1477590')
                   }}
                 >
-                  Resources from EZ2ON REBOOT : R</span>
+                  Resources from EZ2ON REBOOT : R
+                </span>
               </Tooltip>
               <span> · </span>
             </>
@@ -351,7 +352,8 @@ const Footer: React.FC = () => {
                     handleOpenExternalLink('https://ez2pattern.kr/')
                   }}
                 >
-                  EZ2PATTERN</span>
+                  EZ2PATTERN
+                </span>
               </Tooltip>
               <span> · </span>
             </>

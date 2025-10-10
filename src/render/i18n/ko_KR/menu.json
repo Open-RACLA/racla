@@ -1,6 +1,6 @@
 {
   "racla": {
-    "raclaNavTitle": "RACLA",
+    "raclaNavTitle": "Open-RACLA",
     "raclaHome": "홈",
     "raclaOverlay": "오버레이",
     "raclaSettings": "설정",
@@ -17,7 +17,7 @@
     "quickMenuNavTitle": "바로가기 메뉴",
     "login": "로그인",
     "logout": "로그아웃",
-    "raclaHome": "RACLA 바로가기",
+    "raclaHome": "Open-RACLA 바로가기",
     "vArchiveHome": "V-ARCHIVE 바로가기",
     "hardArchiveHome": "전일 아카이브 바로가기",
     "close": "닫기"

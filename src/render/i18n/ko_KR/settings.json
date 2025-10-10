@@ -4,9 +4,9 @@
   "general": "일반",
   "storage": "저장공간",
   "games": "게임",
-  "storageSettingFile": "RACLA 설정 파일",
-  "storageCaptureImage": "RACLA 캡처 이미지",
-  "storageLogs": "RACLA 로그 파일",
+  "storageSettingFile": "Open-RACLA 설정 파일",
+  "storageCaptureImage": "Open-RACLA 캡처 이미지",
+  "storageLogs": "Open-RACLA 로그 파일",
   "storageLogsDeleting": "삭제 중...",
   "storageLogsDeleteAll": "로그 파일 삭제",
   "autoStart": "게임 자동 실행",
@@ -14,10 +14,10 @@
   "restartApp": "앱 재시작",
   "requiresRestart": "※ 이 설정은 적용하려면 앱을 재시작해야 합니다.",
   "uneditable": "※ 현재 버전에서는 수정할 수 없는 설정값입니다.",
-  "copyright": "DJMAX RESPECT V(©NEOWIZ), PLATiNA :: LAB(©HIGH-END Games).\nWe deeply respect you. <3\nRACLA is dedicated to your remarkable games and services.",
+  "copyright": "DJMAX RESPECT V(©NEOWIZ), PLATiNA :: LAB(©HIGH-END Games).\nWe deeply respect you. <3\nOpen-RACLA is dedicated to your remarkable games and services.",
   "hardwareAcceleration": {
     "name": "하드웨어 가속 활성화",
-    "description": "하드웨어 가속은 GPU를 사용하여 RACLA 데스크톱 앱이 더 부드럽게 동작하게 해줍니다. 앱의 화면에 문제가 발생한다면 이 설정을 비활성화 해보시기 바랍니다. 설정을 변경하면 앱이 다시 시작됩니다."
+    "description": "하드웨어 가속은 GPU를 사용하여 Open-RACLA 데스크톱 앱이 더 부드럽게 동작하게 해줍니다. 앱의 화면에 문제가 발생한다면 이 설정을 비활성화 해보시기 바랍니다. 설정을 변경하면 앱이 다시 시작됩니다."
   },
   "autoCaptureMode": {
     "name": "자동 캡처 모드",
@@ -46,7 +46,7 @@
   "font": {
     "name": "폰트",
     "description": "프로그램의 폰트를 설정합니다. 일부 항목은 언어 설정에 따라 폰트가 변경됩니다.",
-    "default": "RACLA 스타일",
+    "default": "Open-RACLA 스타일",
     "platina_lab": "PLATiNA :: LAB 스타일"
   },
   "autoCaptureApi": {
@@ -140,15 +140,15 @@
   },
   "autoStartGame": {
     "name": "게임 자동 실행",
-    "description": "RACLA 데스크톱 앱 실행 시 선택한 게임을 자동으로 실행합니다."
+    "description": "Open-RACLA 데스크톱 앱 실행 시 선택한 게임을 자동으로 실행합니다."
   },
   "autoStartGameDjmaxRespectV": {
     "name": "DJMAX RESPECT V 자동 실행",
-    "description": "RACLA 데스크톱 앱 실행 시 DJMAX RESPECT V를 자동으로 실행합니다. 해당 기능은 Steam 버전의 DJMAX RESPECT V에서만 작동합니다."
+    "description": "Open-RACLA 데스크톱 앱 실행 시 DJMAX RESPECT V를 자동으로 실행합니다. 해당 기능은 Steam 버전의 DJMAX RESPECT V에서만 작동합니다."
   },
   "autoStartGamePlatinaLab": {
     "name": "PLATiNA :: LAB 자동 실행",
-    "description": "RACLA 데스크톱 앱 실행 시 PLATiNA :: LAB를 자동으로 실행합니다. 해당 기능은 Steam 버전의 PLATiNA :: LAB에서만 작동합니다."
+    "description": "Open-RACLA 데스크톱 앱 실행 시 PLATiNA :: LAB를 자동으로 실행합니다. 해당 기능은 Steam 버전의 PLATiNA :: LAB에서만 작동합니다."
   },
   "isMiniMode": {
     "name": "미니 모드",
@@ -203,7 +203,7 @@
     "description": "계정 정보를 확인합니다.",
     "playerId": "계정 번호",
     "playerToken": "계정 토큰",
-    "playerWarning": "노출되는 정보는 RACLA에서 로그인 데이터로 사용되는 계정 번호(playerNo)와 계정 토큰(playerToken)입니다. 계정 번호와 계정 토큰은 외부에 노출되지 않도록 주의해주세요.",
+    "playerWarning": "노출되는 정보는 Open-RACLA에서 로그인 데이터로 사용되는 계정 번호(playerNo)와 계정 토큰(playerToken)입니다. 계정 번호와 계정 토큰은 외부에 노출되지 않도록 주의해주세요.",
     "vArchiveUserNo": "V-ARCHIVE 계정 번호",
     "vArchiveToken": "V-ARCHIVE 계정 토큰",
     "vArchiveWarning": "노출되는 정보는 V-ARCHIVE에서 로그인 데이터로 사용되는 계정 번호(userNo)와 계정 토큰(token)입니다. 계정 번호와 계정 토큰은 외부에 노출되지 않도록 주의해주세요.",

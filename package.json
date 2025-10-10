@@ -1,10 +1,10 @@
 {
   "name": "racla-electron-app",
-  "version": "0.9.0",
+  "version": "0.8.10",
   "private": true,
   "packageManager": "pnpm@10.11.0",
-  "description": "RACLA for Desktop",
-  "author": "RACLA from 공감대로0번길(GGDRN0 STUDIO)",
+  "description": "Open-RACLA for Desktop",
+  "author": "Tsuki.chat",
   "main": "dist/main/index.js",
   "scripts": {
     "dev": "node scripts/generate-build-date.js Dev && rimraf dist && vite",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/RACLA-DEV/racla.git"
+    "url": "https://github.com/Open-RACLA/racla.git"
   },
   "dependencies": {
     "@ckeditor/ckeditor5-build-classic": "^44.3.0",

@@ -118,7 +118,7 @@ export class UpdateManagerService {
         // 업데이트 확인 및 알림 설정
         this.logger.log('업데이트 확인 시작...')
         this.autoUpdater.checkForUpdatesAndNotify({
-          title: 'RACLA 데스크톱 앱 업데이트가 준비되었습니다.',
+          title: 'Open-RACLA 데스크톱 앱 업데이트가 준비되었습니다.',
           body: '업데이트를 적용하기 위해 앱을 종료하고 다시 실행해주세요.',
         })
         this.logger.log('업데이트 확인 요청 완료')

@@ -1,6 +1,6 @@
 {
   "racla": {
-    "raclaNavTitle": "RACLA",
+    "raclaNavTitle": "Open-RACLA",
     "raclaHome": "Home",
     "raclaOverlay": "Overlay",
     "raclaSettings": "Settings",
@@ -17,7 +17,7 @@
     "quickMenuNavTitle": "Quick Menu",
     "login": "Login",
     "logout": "Logout",
-    "raclaHome": "RACLA",
+    "raclaHome": "Open-RACLA",
     "vArchiveHome": "V-ARCHIVE",
     "hardArchiveHome": "HARD-ARCHIVE",
     "close": "Close"

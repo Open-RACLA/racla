@@ -325,7 +325,7 @@ export default function DjmaxHomeComponent() {
             className={`tw:flex tw:gap-2 tw:font-extrabold tw:items-center tw:text-respect-sc-15`}
           >
             <Image
-              src={`https://cdn.racla.app/djmax_respect_v/sc_15_star.png`}
+              src={`https://cdn.open-racla.app/djmax_respect_v/sc_15_star.png`}
               alt='difficulty'
               width={16}
               height={16}
@@ -346,7 +346,7 @@ export default function DjmaxHomeComponent() {
           className={`tw:flex tw:gap-2 tw:font-extrabold tw:items-center tw:text-respect-${difficultyClass}`}
         >
           <Image
-            src={`https://cdn.racla.app/djmax_respect_v/nm_${difficultyClass.split('-')[1]}_star.png`}
+            src={`https://cdn.open-racla.app/djmax_respect_v/nm_${difficultyClass.split('-')[1]}_star.png`}
             alt='difficulty'
             width={16}
             height={16}

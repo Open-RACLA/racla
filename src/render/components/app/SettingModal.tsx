@@ -623,7 +623,7 @@ const AccountInfo = () => {
 
   return (
     <div className='tw:flex tw:flex-col tw:gap-6'>
-      {/* RACLA 계정 정보 */}
+      {/* Open-RACLA 계정 정보 */}
       <div className='tw:bg-white tw:dark:bg-slate-700 tw:rounded-xl tw:p-5 tw:border tw:border-gray-200 tw:dark:border-slate-600'>
         <div className='tw:flex tw:items-center tw:gap-3 tw:mb-4'>
           <div className='tw:p-2 tw:bg-indigo-100 tw:dark:bg-indigo-900/50 tw:rounded-lg'>
@@ -632,7 +632,7 @@ const AccountInfo = () => {
               className='tw:w-5 tw:h-5 tw:text-indigo-600 tw:dark:text-indigo-400'
             />
           </div>
-          <h3 className='tw:text-base tw:font-medium'>RACLA {t('accountInfo.name')}</h3>
+          <h3 className='tw:text-base tw:font-medium'>Open-RACLA {t('accountInfo.name')}</h3>
         </div>
 
         <div className='tw:space-y-4'>

@@ -9,6 +9,22 @@ import { useDispatch, useSelector } from 'react-redux'
 // 하드코딩된 업데이트 내역 데이터 (배열로 변경)
 const UPDATE_NOTES = [
   {
+    version: 'V0.8.10',
+    date: '2025-10-10',
+    notes: [
+      {
+        category: '추가',
+        items: ['DJMAX RESPECT V - PLI: 2025, ARCAEA DLC를 지원합니다.'],
+      },
+      {
+        category: '수정',
+        items: [
+          'PLATiNA :: LAB - Open-RACLA 지원 게임 목록에서 일시적 제거하였습니다. 서비스 안정화 이후 재추가될 예정입니다.',
+        ],
+      },
+    ],
+  },
+  {
     version: 'V0.8.9',
     date: '2025-06-20',
     notes: [

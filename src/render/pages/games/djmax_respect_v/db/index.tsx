@@ -110,7 +110,7 @@ const LazyListItem = React.memo(
                       } `}
                     >
                       <Image
-                        src={`https://cdn.racla.app/djmax_respect_v/nm_${diff}_star.png`}
+                        src={`https://cdn.open-racla.app/djmax_respect_v/nm_${diff}_star.png`}
                         width={16}
                         height={16}
                         alt={diff}

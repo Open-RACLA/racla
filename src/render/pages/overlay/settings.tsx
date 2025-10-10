@@ -33,7 +33,7 @@ const OverlaySettingsPage = () => {
 
   // 이미지 URL 가져오기 - useMemo로 최적화
   const getImageUrl = useCallback((imageKey: string) => {
-    return `https://cdn.racla.app/project_ra/${imageKey}.png`
+    return `https://cdn.open-racla.app/project_ra/${imageKey}.png`
   }, [])
 
   // 스와이퍼 옵션 메모이징

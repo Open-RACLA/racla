@@ -1,6 +1,6 @@
 {
   "racla": {
-    "raclaNavTitle": "RACLA",
+    "raclaNavTitle": "Open-RACLA",
     "raclaHome": "ホーム",
     "raclaOverlay": "オーバーレイ",
     "raclaSettings": "設定",
@@ -17,7 +17,7 @@
     "quickMenuNavTitle": "クイックメニュー",
     "login": "ログイン",
     "logout": "ログアウト",
-    "raclaHome": "RACLA",
+    "raclaHome": "Open-RACLA",
     "vArchiveHome": "V-ARCHIVE",
     "hardArchiveHome": "HARD-ARCHIVE",
     "close": "閉じる"

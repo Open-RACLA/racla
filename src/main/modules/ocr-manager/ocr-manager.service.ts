@@ -98,23 +98,24 @@ export class OcrManagerService {
         )
         texts.open2 = await this.recognizeText(regions.open2)
       }
-    } else if (gameCode.toLowerCase().includes('platina')) {
-      if (settings.autoCapturePlatinaLabOcrResultRegion) {
-        regions.result = await this.imageProcessor.extractRegion(
-          imageBuffer,
-          GLOBAL_DICTONARY.OCR_REGIONS.platina_lab.result,
-        )
-        texts.result = await this.recognizeText(regions.result)
-      }
-    } else if (gameCode.toLowerCase().includes('ez2on')) {
-      if (settings.autoCaptureEz2onOcrResultRegion) {
-        regions.result = await this.imageProcessor.extractRegion(
-          imageBuffer,
-          GLOBAL_DICTONARY.OCR_REGIONS.ez2on.result,
-        )
-        texts.result = await this.recognizeText(regions.result)
-      }
     }
+    // else if (gameCode.toLowerCase().includes('platina')) {
+    //   if (settings.autoCapturePlatinaLabOcrResultRegion) {
+    //     regions.result = await this.imageProcessor.extractRegion(
+    //       imageBuffer,
+    //       GLOBAL_DICTONARY.OCR_REGIONS.platina_lab.result,
+    //     )
+    //     texts.result = await this.recognizeText(regions.result)
+    //   }
+    // } else if (gameCode.toLowerCase().includes('ez2on')) {
+    //   if (settings.autoCaptureEz2onOcrResultRegion) {
+    //     regions.result = await this.imageProcessor.extractRegion(
+    //       imageBuffer,
+    //       GLOBAL_DICTONARY.OCR_REGIONS.ez2on.result,
+    //     )
+    //     texts.result = await this.recognizeText(regions.result)
+    //   }
+    // }
 
     return { regions, texts }
   }
@@ -178,31 +179,32 @@ export class OcrManagerService {
           resultInfo.gameCode = 'djmax_respect_v'
         }
       }
-    } else if (gameCode.toLowerCase().includes('platina')) {
-      if (settings.autoCapturePlatinaLabOcrResultRegion && texts.result) {
-        resultInfo.isResult = this.checkResultKeywords(
-          texts.result,
-          GLOBAL_DICTONARY.RESULT_KEYWORDS.platina_lab.result,
-        )
-        if (resultInfo.isResult.length > 0) {
-          resultInfo.where = 'result'
-          resultInfo.text = texts.result
-          resultInfo.gameCode = 'platina_lab'
-        }
-      }
-    } else if (gameCode.toLowerCase().includes('ez2on')) {
-      if (settings.autoCaptureEz2onOcrResultRegion && texts.result) {
-        resultInfo.isResult = this.checkResultKeywords(
-          texts.result,
-          GLOBAL_DICTONARY.RESULT_KEYWORDS.ez2on.result,
-        )
-        if (resultInfo.isResult.length > 0) {
-          resultInfo.where = 'result'
-          resultInfo.text = texts.result
-          resultInfo.gameCode = 'ez2on'
-        }
-      }
     }
+    // else if (gameCode.toLowerCase().includes('platina')) {
+    //   if (settings.autoCapturePlatinaLabOcrResultRegion && texts.result) {
+    //     resultInfo.isResult = this.checkResultKeywords(
+    //       texts.result,
+    //       GLOBAL_DICTONARY.RESULT_KEYWORDS.platina_lab.result,
+    //     )
+    //     if (resultInfo.isResult.length > 0) {
+    //       resultInfo.where = 'result'
+    //       resultInfo.text = texts.result
+    //       resultInfo.gameCode = 'platina_lab'
+    //     }
+    //   }
+    // } else if (gameCode.toLowerCase().includes('ez2on')) {
+    //   if (settings.autoCaptureEz2onOcrResultRegion && texts.result) {
+    //     resultInfo.isResult = this.checkResultKeywords(
+    //       texts.result,
+    //       GLOBAL_DICTONARY.RESULT_KEYWORDS.ez2on.result,
+    //     )
+    //     if (resultInfo.isResult.length > 0) {
+    //       resultInfo.where = 'result'
+    //       resultInfo.text = texts.result
+    //       resultInfo.gameCode = 'ez2on'
+    //     }
+    //   }
+    // }
 
     return resultInfo
   }
@@ -314,7 +316,7 @@ export class OcrManagerService {
   public async getOcrResultServer(image: Buffer, gameCode: string): Promise<OcrPlayDataResponse> {
     const resizedImage = await this.imageProcessor.postProcessImage(image)
     const formData = new FormData()
-    const blob = new Blob([resizedImage], { type: 'image/png' })
+    const blob = new Blob([new Uint8Array(resizedImage)], { type: 'image/png' })
     formData.append('file', blob, uuidv4() + '.png')
     formData.append('where', formData.get('where') ?? 'server')
 

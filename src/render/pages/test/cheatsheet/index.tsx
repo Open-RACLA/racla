@@ -172,7 +172,7 @@ function CheatsheetPage() {
   return (
     <div className='tw:container tw:mx-auto tw:p-8'>
       <div className='tw:flex tw:items-center tw:gap-4 tw:mb-8'>
-        <h1 className='tw:text-3xl tw:font-bold'>RACLA API Cheat Sheet</h1>
+        <h1 className='tw:text-3xl tw:font-bold'>Open-RACLA API Cheat Sheet</h1>
       </div>
 
       <div className='tw:mb-6'>

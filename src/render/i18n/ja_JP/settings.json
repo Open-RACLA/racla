@@ -4,9 +4,9 @@
   "general": "一般",
   "storage": "ストレージ",
   "games": "ゲーム",
-  "storageSettingFile": "RACLA設定ファイル",
-  "storageCaptureImage": "RACLAキャプチャー画像",
-  "storageLogs": "RACLAログファイル",
+  "storageSettingFile": "Open-RACLA設定ファイル",
+  "storageCaptureImage": "Open-RACLAキャプチャー画像",
+  "storageLogs": "Open-RACLAログファイル",
   "storageLogsDeleting": "削除中...",
   "storageLogsDeleteAll": "ログファイル削除",
   "autoStart": "ゲーム自動起動",
@@ -14,10 +14,10 @@
   "restartApp": "アプリ再起動",
   "requiresRestart": "※ この設定を適用するにはアプリの再起動が必要です。",
   "uneditable": "※ 現在のバージョンでは編集できない設定値です。",
-  "copyright": "DJMAX RESPECT V(©NEOWIZ), PLATiNA :: LAB(©HIGH-END Games).\nWe deeply respect you. <3\nRACLA is dedicated to your remarkable games and services.",
+  "copyright": "DJMAX RESPECT V(©NEOWIZ), PLATiNA :: LAB(©HIGH-END Games).\nWe deeply respect you. <3\nOpen-RACLA is dedicated to your remarkable games and services.",
   "hardwareAcceleration": {
     "name": "ハードウェアアクセラレーション有効化",
-    "description": "ハードウェアアクセラレーションはGPUを使用してRACLAデスクトップアプリをよりスムーズに動作させます。アプリの画面に問題が発生した場合は、この設定を無効にしてみてください。設定を変更するとアプリが再起動します。"
+    "description": "ハードウェアアクセラレーションはGPUを使用してOpen-RACLAデスクトップアプリをよりスムーズに動作させます。アプリの画面に問題が発生した場合は、この設定を無効にしてみてください。設定を変更するとアプリが再起動します。"
   },
   "autoCaptureMode": {
     "name": "自動キャプチャーモード",
@@ -46,7 +46,7 @@
   "font": {
     "name": "フォント",
     "description": "プログラムのフォントを設定します。一部の項目は言語設定によってフォントが変更されます。",
-    "default": "RACLAスタイル",
+    "default": "Open-RACLAスタイル",
     "platina_lab": "PLATiNA :: LABスタイル"
   },
   "autoCaptureApi": {
@@ -140,15 +140,15 @@
   },
   "autoStartGame": {
     "name": "ゲーム自動起動",
-    "description": "RACLAデスクトップアプリ起動時に選択したゲームを自動的に起動します。"
+    "description": "Open-RACLAデスクトップアプリ起動時に選択したゲームを自動的に起動します。"
   },
   "autoStartGameDjmaxRespectV": {
     "name": "DJMAX RESPECT V自動起動",
-    "description": "RACLAデスクトップアプリ起動時にDJMAX RESPECT Vを自動的に起動します。この機能はSteamバージョンのDJMAX RESPECT Vでのみ動作します。"
+    "description": "Open-RACLAデスクトップアプリ起動時にDJMAX RESPECT Vを自動的に起動します。この機能はSteamバージョンのDJMAX RESPECT Vでのみ動作します。"
   },
   "autoStartGamePlatinaLab": {
     "name": "PLATiNA :: LAB自動起動",
-    "description": "RACLAデスクトップアプリ起動時にPLATiNA :: LABを自動的に起動します。この機能はSteamバージョンのDJMAX RESPECT Vでのみ動作します。"
+    "description": "Open-RACLAデスクトップアプリ起動時にPLATiNA :: LABを自動的に起動します。この機能はSteamバージョンのDJMAX RESPECT Vでのみ動作します。"
   },
   "isMiniMode": {
     "name": "ミニモード",
@@ -203,7 +203,7 @@
     "description": "アカウント情報を確認します。",
     "playerId": "アカウントID",
     "playerToken": "アカウントトークン",
-    "playerWarning": "表示される情報はRACLAでログインデータとして使用されるアカウントID（playerNo）とアカウントトークン（playerToken）です。アカウントIDとアカウントトークンが外部に漏れないよう注意してください。",
+    "playerWarning": "表示される情報はOpen-RACLAでログインデータとして使用されるアカウントID（playerNo）とアカウントトークン（playerToken）です。アカウントIDとアカウントトークンが外部に漏れないよう注意してください。",
     "vArchiveUserNo": "V-ARCHIVEアカウントID",
     "vArchiveToken": "V-ARCHIVEアカウントトークン",
     "vArchiveWarning": "表示される情報はV-ARCHIVEでログインデータとして使用されるアカウントID（userNo）とアカウントトークン（token）です。アカウントIDとアカウントトークンが外部に漏れないよう注意してください。",

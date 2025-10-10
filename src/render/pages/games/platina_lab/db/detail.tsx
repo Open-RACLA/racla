@@ -259,7 +259,7 @@ const PlatinaLabDbDetailPage = () => {
               {/* 배경 이미지 추가 */}
               <div className='tw:absolute tw:inset-0 tw:overflow-hidden tw:rounded-md'>
                 <Image
-                  src={`https://cdn.racla.app/${selectedGame}/jackets/cropped/${String(baseSongData[0].title)}.jpg`}
+                  src={`https://cdn.open-racla.app/${selectedGame}/jackets/cropped/${String(baseSongData[0].title)}.jpg`}
                   alt=''
                   className='tw:opacity-50 tw:blur-xl'
                   style={{
@@ -286,7 +286,7 @@ const PlatinaLabDbDetailPage = () => {
                 <div className='tw:flex tw:flex-col tw:w-full tw:flex-1 tw:justify-end tw:leading-none tw:p-1'>
                   {/* 제목 */}
                   <span className='tw:text-xs tw:font-light tw:text-slate-500 tw:dark:text-slate-400'>
-                    RACLA : {baseSongData[0].title} /
+                    Open-RACLA : {baseSongData[0].title} /
                     {baseSongData[0].bpm == baseSongData[0].bpmLow
                       ? baseSongData[0].bpm
                       : baseSongData[0].bpmLow + '~' + baseSongData[0].bpm}{' '}

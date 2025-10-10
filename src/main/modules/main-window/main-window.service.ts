@@ -39,12 +39,12 @@ export class MainWindowService {
       this.tray = new Tray(trayIcon)
 
       // 툴팁 설정
-      this.tray.setToolTip('RACLA for Desktop')
+      this.tray.setToolTip('Open-RACLA for Desktop')
 
       // 컨텍스트 메뉴 설정
       const contextMenu = Menu.buildFromTemplate([
         {
-          label: 'RACLA for Desktop',
+          label: 'Open-RACLA for Desktop',
           enabled: false, // 클릭 불가능한 텍스트로 설정
         },
         { type: 'separator' }, // 구분선 추가

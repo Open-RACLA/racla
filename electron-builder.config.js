@@ -4,8 +4,8 @@
  */
 const config = {
   appId: 'app.racla.racla-electron-app',
-  productName: 'RACLA for Desktop',
-  copyright: 'Copyright © 2024-2025 RACLA from 공감대로0번길(GGDRN0 STUDIO)',
+  productName: 'Open-RACLA for Desktop',
+  copyright: 'Copyright © 2024-2025 Tsuki.chat',
 
   directories: {
     output: 'dist/electron',
@@ -36,7 +36,7 @@ const config = {
 
   publish: {
     provider: 'github',
-    owner: 'RACLA-DEV',
+    owner: 'Open-RACLA',
     repo: 'racla',
     releaseType: 'release',
   },

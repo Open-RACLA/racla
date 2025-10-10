@@ -1,5 +1,5 @@
 {
-  "successInitialize": "RACLAオーバーレイが有効になりました。",
+  "successInitialize": "Open-RACLAオーバーレイが有効になりました。",
   "pressedAltInsert": "手動キャプチャーモード - リザルト画面の分析を開始します。少々お待ちください。",
   "detectResultScreen": "自動キャプチャーモード - リザルト画面が検出され、分析を開始します。少々お待ちください。",
   "retryParsePlayResult": "自動キャプチャーモード - 最初の試行でリザルト画面の分析に失敗したため、再試行します。少々お待ちください。（最大3回試行）",
@@ -16,7 +16,7 @@
   "resultOverlay": "リザルトオーバーレイ表示",
   "resultOverlayDescription": "自動キャプチャーまたは手動キャプチャーモードでキャプチャーしたリザルトと処理過程をインゲームオーバーレイとして表示します。DJMAX RESPECT VはV-ARCHIVEとの連携が必要で、バーサス/ラダーマッチ画面はサポートしていません。",
   "recentOverlay": "リザルトオーバーレイ表示時に最近の記録オーバーレイを表示",
-  "recentOverlayDescription": "リザルトオーバーレイ表示時に該当する収録曲パターンのRACLA最近の記録情報を表示します。",
+  "recentOverlayDescription": "リザルトオーバーレイ表示時に該当する収録曲パターンのOpen-RACLA最近の記録情報を表示します。",
   "hardJudgementPlayRecordOverlay": "リザルトオーバーレイ表示時に全一記録オーバーレイを表示",
-  "hardJudgementPlayRecordOverlayDescription": "DJMAX RESPECT Vのリザルトオーバーレイ表示時にHARD-ARCHIVEに登録された最高記録情報を表示します。PLATiNA :: LABはRACLA記録を基に今後サポート予定です。"
+  "hardJudgementPlayRecordOverlayDescription": "DJMAX RESPECT Vのリザルトオーバーレイ表示時にHARD-ARCHIVEに登録された最高記録情報を表示します。PLATiNA :: LABはOpen-RACLA記録を基に今後サポート予定です。"
 }

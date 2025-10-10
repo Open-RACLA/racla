@@ -1,5 +1,5 @@
 {
-  "successInitialize": "RACLA overlay has been activated.",
+  "successInitialize": "Open Open-RACLA overlay has been activated.",
   "pressedAltInsert": "Manual capture mode - Starting result screen analysis. Please wait a moment.",
   "detectResultScreen": "Auto capture mode - Result screen detected and analysis started. Please wait a moment.",
   "retryParsePlayResult": "Auto capture mode - First attempt to analyze result screen failed, retrying. Please wait a moment. (Maximum 3 attempts)",
@@ -16,7 +16,7 @@
   "resultOverlay": "Show Result Overlay",
   "resultOverlayDescription": "Displays the captured results and processing from auto capture or manual capture mode as an in-game overlay. DJMAX RESPECT V requires V-ARCHIVE integration, and versus/ladder match screens are not supported.",
   "recentOverlay": "Show Recent Record Overlay with Result Overlay",
-  "recentOverlayDescription": "Displays RACLA recent record information for the song pattern when showing result overlay.",
+  "recentOverlayDescription": "Displays Open Open-RACLA recent record information for the song pattern when showing result overlay.",
   "hardJudgementPlayRecordOverlay": "Show World Record Overlay with Result Overlay",
-  "hardJudgementPlayRecordOverlayDescription": "Displays top record information registered in HARD-ARCHIVE when showing DJMAX RESPECT V result overlay. PLATiNA :: LAB will be supported in the future based on RACLA records."
+  "hardJudgementPlayRecordOverlayDescription": "Displays top record information registered in HARD-ARCHIVE when showing DJMAX RESPECT V result overlay. PLATiNA :: LAB will be supported in the future based on Open-RACLA records."
 }

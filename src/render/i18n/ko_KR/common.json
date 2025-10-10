@@ -1,5 +1,5 @@
 {
-  "copyright": "Developed by RACLA from 공감대로0번길(GGDRN0 STUDIO)",
+  "copyright": "Developed by Tsuki.chat",
   "general": {
     "time_hour": "시",
     "time_minute": "분",
@@ -38,7 +38,7 @@
     "logout": "로그아웃",
     "register": "계정 생성",
     "backToLogin": "로그인으로 돌아가기",
-    "loginSuccess": "{{userName}}님 RACLA에 오신 것을 환영합니다.",
+    "loginSuccess": "{{userName}}님 Open-RACLA에 오신 것을 환영합니다.",
     "loginFailed": "로그인에 실패했습니다. 다시 시도해주세요.",
     "logoutSuccess": "정상적으로 로그아웃 되었습니다.",
     "logoutFailed": "로그아웃에 실패했습니다. 다시 시도해주세요.",
@@ -48,9 +48,9 @@
     "unknownError": "알 수 없는 오류가 발생했습니다. 다시 시도해주세요.",
     "discordLoginCanceled": "Discord 로그인이 취소되었습니다.",
     "discordLoginFailed": "Discord 로그인에 실패했습니다. 다시 시도해주세요.",
-    "announcement_1": "RACLA는 V-ARCHIVE와 Discord의 사용자 데이터를 수집 및 사용하고 있습니다.",
+    "announcement_1": "Open-RACLA는 V-ARCHIVE와 Discord의 사용자 데이터를 수집 및 사용하고 있습니다.",
     "announcement_2": "V-ARCHIVE 계정 미연동 시 DJMAX RESPECT V 서비스 중 일부 기능은 사용할 수 없습니다.",
-    "announcement_3": "V-ARCHIVE 또는 Discord로 최초 로그인 시 자동으로 RACLA 계정이 생성되며 해당되는 서비스의 계정 정보와 연동됩니다.",
+    "announcement_3": "V-ARCHIVE 또는 Discord로 최초 로그인 시 자동으로 Open-RACLA 계정이 생성되며 해당되는 서비스의 계정 정보와 연동됩니다.",
     "announcement_4": "연동 관련 설정은 로그인 후 설정 페이지에서 확인할 수 있습니다.",
     "announcement_5": "V-ARCHIVE 공식 클라이언트 다운로드 바로가기"
   },

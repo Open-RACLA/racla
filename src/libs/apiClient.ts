@@ -40,8 +40,8 @@ class ApiClient {
 
   constructor(
     baseURL: string = process.env.NODE_ENV === 'development'
-      ? 'https://api.racla.app/api'
-      : 'https://api.racla.app/api',
+      ? 'https://api.open-racla.app/api'
+      : 'https://api.open-racla.app/api',
   ) {
     this.client = axios.create({
       baseURL,

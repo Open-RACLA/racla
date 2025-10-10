@@ -1,5 +1,5 @@
 {
-  "copyright": "Developed by RACLA from 공감대로0번길(GGDRN0 STUDIO)",
+  "copyright": "Developed by ",
   "general": {
     "time_hour": "hour",
     "time_minute": "minute",
@@ -38,7 +38,7 @@
     "logout": "Logout",
     "register": "Create Account",
     "backToLogin": "Back to Login",
-    "loginSuccess": "Welcome to RACLA, {{userName}}.",
+    "loginSuccess": "Welcome to Open-RACLA, {{userName}}.",
     "loginFailed": "Login failed. Please try again.",
     "logoutSuccess": "You have been successfully logged out.",
     "logoutFailed": "Logout failed. Please try again.",
@@ -48,9 +48,9 @@
     "unknownError": "An unknown error occurred. Please try again.",
     "discordLoginCanceled": "Discord login was canceled.",
     "discordLoginFailed": "Discord login failed. Please try again.",
-    "announcement_1": "RACLA collects and uses user data from V-ARCHIVE and Discord.",
+    "announcement_1": "Open-RACLA collects and uses user data from V-ARCHIVE and Discord.",
     "announcement_2": "Some DJMAX RESPECT V services will not be available if your V-ARCHIVE account is not linked.",
-    "announcement_3": "When you first log in with V-ARCHIVE or Discord, a RACLA account is automatically created and linked to the corresponding service account.",
+    "announcement_3": "When you first log in with V-ARCHIVE or Discord, a Open-RACLA account is automatically created and linked to the corresponding service account.",
     "announcement_4": "You can check linking settings on the settings page after logging in.",
     "announcement_5": "Download V-ARCHIVE official client"
   },

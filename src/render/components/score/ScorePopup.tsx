@@ -152,7 +152,7 @@ const ScorePopupComponent = memo(
         }
 
         try {
-          // 10000000 이상은 RACLA 고유 번호로 사용
+          // 10000000 이상은 Open-RACLA 고유 번호로 사용
           if (game !== 'djmax_respect_v') {
             createLog('debug', 'fetching racla song data', { ...userData })
             const response = await apiClient.get<SongData>(
@@ -282,7 +282,7 @@ const ScorePopupComponent = memo(
                 width={width}
                 height={height}
                 alt={songItem?.name || ''}
-                fallbackSrc='https://cdn.racla.app/common/no-image.jpg'
+                fallbackSrc='https://cdn.open-racla.app/common/no-image.jpg'
                 style={{ objectFit: 'cover' }}
                 onLoad={() => {
                   setImageLoaded(true)
@@ -318,7 +318,7 @@ const ScorePopupComponent = memo(
                 width={width}
                 height={height}
                 alt={songItem?.name || ''}
-                fallbackSrc='https://cdn.racla.app/common/no-image.jpg'
+                fallbackSrc='https://cdn.open-racla.app/common/no-image.jpg'
                 style={{ objectFit: 'cover' }}
                 onLoad={() => {
                   setImageLoaded(true)

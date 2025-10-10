@@ -27,7 +27,7 @@ export class AppService implements OnApplicationBootstrap {
     this.logger.log('Application bootstrapped')
 
     // 앱 ID 설정
-    app.setAppUserModelId('RACLA')
+    app.setAppUserModelId('Open-RACLA')
 
     // 글로벌 단축키 등록
     const isRegistered = globalShortcut.register('Alt+Insert', async () => {
